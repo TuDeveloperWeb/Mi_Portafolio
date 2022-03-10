@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <!-- Mis estilos -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Font Awesone -->
+    <script src="https://kit.fontawesome.com/982b1ca465.js" crossorigin="anonymous"></script>
+
+
+    <!-- Animacion Animate.css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- <div id="particles-js"></div> -->
+
+
+    <header class="hero">
+        <!-- <div id="particles-js"></div> -->
+        <div class="nav__container">        
+            <nav class=" nav container">
+                <ul class="nav__link nav__link--menu ">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links nav__links--color">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#about" class="nav__links">Resumen</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#projects" class="nav__links">Portafolio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#contact" class="nav__links">Contacto</a>
+                    </li>
+
+                    <img src="./images/close.svg" class="nav__close">
+                </ul>
+                
+                <div class="nav__menu">
+                    <img src="./images/menu.svg" class="nav__img">
+                </div>
+            </nav>
+        </div>
+
+        <section class="hero__container ">
+            <div id="particles-js"></div>
+            
+            <div class="hero__title">
+                    <h1 class="title">Hola <strong class="title__name">Mi nombre es Oscar Añamaco
+                    </strong></h1>
+                    <p class="title__description">Soy <span class="typed"></span>
+            </div>
+           
+
+        </section>
+    </header>
+
+    <main>
+        <section id="about"  class="container about">
+            <h2 class="subtitle about__subtitle" data-aos="fade-down">
+                Sobre mi
+            </h2>
+            <hr class="barra">
+
+            <div class="about__main">
+                <div class="about__description"  >
+                    <p class="about__presentation " data-aos="fade-right" >
+                        Soy un egresado en Ingeniería de Sistemas de la Universidad Nacional del Callao, Cuento con amplios conocimientos en el área de Administración de Base de Datos, así como también conocimientos intermedios  en desarrollo de páginas web y programación. Proactivo, sinérgico y con ganas de aprender y trabajar en equipo para alcanzar un determinado objetivo.
+                     </p>
+                     <a href="./CURRICULUM VITAE.pdf"   class="about__cv" data-aos="fade-up" >
+                        <span class="download__cv">Descargar CV</span> 
+                        <i class="fa-solid fa-download"></i> 
+                     
+                    </a>
+                </div>
+                <div class="about__perfil" data-aos="fade-left">
+                    <img src="./images/img-jose-montoya.jpg" class="perfil__img">
+                </div>
+            </div>
+
+        </section>
+
+        <section class="skill">
+
+            <div class="container">
+                <h2 class="subtitle skill__subtitle">
+                    Mis Habilidades
+                </h2>
+                <hr class="barra">
+                <div class="main__skill">
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:#fff;transform: ;msFilter:;"><path d="M20 6c0-2.168-3.663-4-8-4S4 3.832 4 6v2c0 2.168 3.663 4 8 4s8-1.832 8-4V6zm-8 13c-4.337 0-8-1.832-8-4v3c0 2.168 3.663 4 8 4s8-1.832 8-4v-3c0 2.168-3.663 4-8 4z"></path><path d="M20 10c0 2.168-3.663 4-8 4s-8-1.832-8-4v3c0 2.168 3.663 4 8 4s8-1.832 8-4v-3z"></path></svg>
+                        <h3 class="icon__title">SQL Server</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 8 7 C 4.69 7 2 9.69 2 13 L 2 33 C 2 35.97 4.16 38.440156 7 38.910156 L 7 36.869141 C 5.27 36.429141 4 34.86 4 33 L 4 13 C 4 10.79 5.79 9 8 9 L 41 9 C 43.21 9 45 10.79 45 13 L 45 33 C 45 34.86 43.73 36.429141 42 36.869141 L 42 38.910156 C 44.84 38.440156 47 35.97 47 33 L 47 13 C 47 9.69 44.31 7 41 7 L 8 7 z M 36.5 15 C 35.119 15 34 16.119 34 17.5 L 34 41.5 C 34 42.881 35.119 44 36.5 44 C 37.881 44 39 42.881 39 41.5 L 39 17.5 C 39 16.119 37.881 15 36.5 15 z M 20.5 21 C 19.119 21 18 22.119 18 23.5 L 18 41.5 C 18 42.881 19.119 44 20.5 44 C 21.881 44 23 42.881 23 41.5 L 23 23.5 C 23 22.119 21.881 21 20.5 21 z M 28.5 25 C 27.119 25 26 26.119 26 27.5 L 26 41.5 C 26 42.881 27.119 44 28.5 44 C 29.881 44 31 42.881 31 41.5 L 31 27.5 C 31 26.119 29.881 25 28.5 25 z M 12.5 30 C 11.119 30 10 31.119 10 32.5 L 10 41.5 C 10 42.881 11.119 44 12.5 44 C 13.881 44 15 42.881 15 41.5 L 15 32.5 C 15 31.119 13.881 30 12.5 30 z"/></svg>
+                        <h3 class="icon__title">Power Bi</h3>
+                    </article>
+                
+                    <article class="about__icons"data-aos="zoom-in-up" >  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 192.756 192.756"><g fill-rule="evenodd" clip-rule="evenodd"><path class="icon__oracle fill="#fff" d="M0 0h192.756v192.756H0V0z"/><path class="bg_oracle" d="M131.463 85.484h3.611v18.5h15.655l-2.299 3.614h-16.967V85.484zM103.109 107.598L89.753 86.524c-.821-1.368-3.01-1.368-3.941.055l-13.246 21.019h4.379l3.996-6.35h8.539l2.245-3.613h-8.539l4.653-7.279 10.893 17.242h4.377zM111.236 85.491c-6.102 0-10.119 4.947-10.119 11.05 0 6.102 4.018 11.051 10.119 11.051l14.838-.018 2.322-3.582h-17.051c-4.113 0-6.52-3.336-6.52-7.451s2.406-7.451 6.52-7.451h15.189l2.242-3.61-17.54.011zM18.624 89.09h15.654c4.115 0 6.521 3.336 6.521 7.451s-2.405 7.451-6.521 7.451H18.624c-4.115 0-6.52-3.336-6.52-7.451s2.405-7.451 6.52-7.451zm0-3.599c-6.103 0-10.12 4.947-10.12 11.05 0 6.102 4.017 11.051 10.12 11.051h15.654c6.103 0 10.12-4.949 10.12-11.051 0-6.103-4.017-11.05-10.12-11.05H18.624zM154.588 98.293c.588 3.27 2.838 5.699 6.35 5.699h17.051l-2.324 3.582-14.836.018c-6.104 0-10.119-4.949-10.119-11.051 0-6.103 4.016-11.05 10.119-11.05l17.539-.01-2.24 3.61h-15.189c-3.463 0-5.723 2.388-6.35 5.59h21.43l-2.299 3.613h-19.132v-.001zM64.821 98.613a6.562 6.562 0 0 0 0-13.122l-18.419-.008v22.114h4.051V89.091h14.368a2.961 2.961 0 0 1 0 5.922H53.299l12.998 12.559h5.229l-9.305-8.951 2.6-.008zM182.152 85.504c.939 0 1.682.742 1.682 1.726 0 1-.742 1.736-1.682 1.736-.951 0-1.691-.736-1.691-1.736 0-.984.74-1.726 1.691-1.726v-.346c-1.143 0-2.109.879-2.109 2.071 0 1.204.967 2.083 2.109 2.083 1.133 0 2.1-.879 2.1-2.083 0-1.192-.967-2.071-2.1-2.071v.346z"/><path " d="M181.713 86.345h.496c.252 0 .521.055.521.352 0 .368-.275.391-.584.391h-.434v.308h.418l.633 1.039h.406l-.682-1.055c.352-.044.621-.23.621-.659 0-.473-.281-.682-.846-.682h-.914v2.396h.363v-2.09h.002z" class="icon__oracle"/></g></svg>
+                        <h3 class="icon__title">Oracle 11g</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="24px" height="24px"><path class="icon__excel" fill="rgba(0, 0, 0, 1)" d="M41,10H25v28h16c0.553,0,1-0.447,1-1V11C42,10.447,41.553,10,41,10z"/><path class="skill__svg"  fill="#FFF" d="M32 15H39V18H32zM32 25H39V28H32zM32 30H39V33H32zM32 20H39V23H32zM25 15H30V18H25zM25 25H30V28H25zM25 30H30V33H25zM25 20H30V23H25z"/><path  fill="rgba(0, 0, 0, 1)" d="M27 42L6 38 6 10 27 6z"/><path class="skill__svg"  fill="#FFF" d="M19.129,31l-2.411-4.561c-0.092-0.171-0.186-0.483-0.284-0.938h-0.037c-0.046,0.215-0.154,0.541-0.324,0.979L13.652,31H9.895l4.462-7.001L10.274,17h3.837l2.001,4.196c0.156,0.331,0.296,0.725,0.42,1.179h0.04c0.078-0.271,0.224-0.68,0.439-1.22L19.237,17h3.515l-4.199,6.939l4.316,7.059h-3.74V31z"/></svg>
+                        <h3 class="icon__title">Excel</h3>
+                    </article>
+                    
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M4.136 3.012h15.729l-1.431 16.15-6.451 1.826-6.414-1.826-1.433-16.15zm5.266 7.302-.173-2.035 7.533.002.173-1.963-9.87-.002.522 5.998h6.835l-.243 2.566-2.179.602-2.214-.605-.141-1.58H7.691l.247 3.123L12 17.506l4.028-1.08.558-6.111H9.402v-.001z"></path></svg>
+                        <h3 class="icon__title">HTML</h3>
+                    </article>
+                    
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: #fff;transform: ;msFilter:;"><path d="M4.192 3.143h15.615l-1.42 16.034-6.404 1.812-6.369-1.813L4.192 3.143zM16.9 6.424l-9.8-.002.158 1.949 7.529.002-.189 2.02H9.66l.179 1.913h4.597l-.272 2.62-2.164.598-2.197-.603-.141-1.569h-1.94l.216 2.867L12 17.484l3.995-1.137.905-9.923z"></path></svg>
+                        <h3 class="icon__title">CSS3</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M3 3h18v18H3V3zm16.525 13.707c-.131-.821-.666-1.511-2.252-2.155-.552-.259-1.165-.438-1.349-.854-.068-.248-.078-.382-.034-.529.113-.484.687-.629 1.137-.495.293.09.563.315.732.676.775-.507.775-.507 1.316-.844-.203-.314-.304-.451-.439-.586-.473-.528-1.103-.798-2.126-.775l-.528.067c-.507.124-.991.395-1.283.754-.855.968-.608 2.655.427 3.354 1.023.765 2.521.933 2.712 1.653.18.878-.652 1.159-1.475 1.058-.607-.136-.945-.439-1.316-1.002l-1.372.788c.157.359.337.517.607.832 1.305 1.316 4.568 1.249 5.153-.754.021-.067.18-.528.056-1.237l.034.049zm-6.737-5.434h-1.686c0 1.453-.007 2.898-.007 4.354 0 .924.047 1.772-.104 2.033-.247.517-.886.451-1.175.359-.297-.146-.448-.349-.623-.641-.047-.078-.082-.146-.095-.146l-1.368.844c.229.473.563.879.994 1.137.641.383 1.502.507 2.404.305.588-.17 1.095-.519 1.358-1.059.384-.697.302-1.553.299-2.509.008-1.541 0-3.083 0-4.635l.003-.042z"></path></svg>
+                        <h3 class="icon__title">JavaScript</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M18.002 2.997H5.999A3.011 3.011 0 0 0 2.997 6v12.002a3.012 3.012 0 0 0 3.002 3.001h12.003a3.012 3.012 0 0 0 3.001-3.001V6a3.012 3.012 0 0 0-3.001-3.003zm-1.64 12.647c-.152.36-.389.68-.693.927a3.594 3.594 0 0 1-1.206.614c-.49.151-1.074.229-1.75.229H7.888V6.909h5.103c.943 0 1.7.213 2.267.646.569.436.854 1.082.854 1.958 0 .528-.13.983-.389 1.357-.259.373-.63.664-1.111.868v.034c.642.135 1.137.438 1.464.912.327.473.493 1.069.493 1.789 0 .405-.078.788-.225 1.147l.02.021v.003zm-2.084-2.589c-.309-.282-.739-.419-1.297-.419H9.737v3.276h3.253c.554 0 .991-.144 1.298-.435.308-.289.464-.701.464-1.229-.005-.518-.156-.919-.464-1.193h-.014.004zm-.451-2.119c.299-.251.444-.613.444-1.084 0-.526-.131-.902-.397-1.116-.264-.214-.646-.326-1.146-.326H9.727v2.898h3.001c.436.001.81-.127 1.099-.372z"></path></svg>
+                        <h3 class="icon__title">Boostrap </h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="m12 12.765 5.592-9.437h-3.276L12 7.33v.002L9.688 3.328h-3.28z"></path><path d="M18.461 3.332 12 14.235 5.539 3.332H1.992L12 20.672l10.008-17.34z"></path></svg>
+                        <h3 class="icon__title">Vue.js</h3>
+                    </article>
+                
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="m21.62 11.108-8.731-8.729a1.292 1.292 0 0 0-1.823 0L9.257 4.19l2.299 2.3a1.532 1.532 0 0 1 1.939 1.95l2.214 2.217a1.53 1.53 0 0 1 1.583 2.531c-.599.6-1.566.6-2.166 0a1.536 1.536 0 0 1-.337-1.662l-2.074-2.063V14.9c.146.071.286.169.407.29a1.537 1.537 0 0 1 0 2.166 1.536 1.536 0 0 1-2.174 0 1.528 1.528 0 0 1 0-2.164c.152-.15.322-.264.504-.339v-5.49a1.529 1.529 0 0 1-.83-2.008l-2.26-2.271-5.987 5.982c-.5.504-.5 1.32 0 1.824l8.731 8.729a1.286 1.286 0 0 0 1.821 0l8.69-8.689a1.284 1.284 0 0 0 .003-1.822"></path></svg>
+                        <h3 class="icon__title">Git</h3>
+                    </article>
+                
+                    <article class="about__icons"data-aos="zoom-in-up" >
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668h3.332z"></path><circle cx="15.332" cy="12" r="3.332"></circle></svg>
+                        <h3 class="icon__title">Figma</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M9.585 11.692h4.328s2.432.039 2.432-2.35V5.391S16.714 3 11.936 3C7.362 3 7.647 4.983 7.647 4.983l.006 2.055h4.363v.617H5.92s-2.927-.332-2.927 4.282 2.555 4.45 2.555 4.45h1.524v-2.141s-.083-2.554 2.513-2.554zm-.056-5.74a.784.784 0 1 1 0-1.57.784.784 0 1 1 0 1.57z"></path><path d="M18.452 7.532h-1.524v2.141s.083 2.554-2.513 2.554h-4.328s-2.432-.04-2.432 2.35v3.951s-.369 2.391 4.409 2.391c4.573 0 4.288-1.983 4.288-1.983l-.006-2.054h-4.363v-.617h6.097s2.927.332 2.927-4.282-2.555-4.451-2.555-4.451zm-3.981 10.436a.784.784 0 1 1 0 1.57.784.784 0 1 1 0-1.57z"></path></svg>
+                        <h3 class="icon__title">Python</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 25 2 C 24.285156 2 23.570313 2.179688 22.933594 2.539063 L 6.089844 12.003906 C 4.800781 12.726563 4 14.082031 4 15.535156 L 4 34.464844 C 4 35.917969 4.800781 37.273438 6.089844 37.996094 L 22.933594 47.460938 C 23.570313 47.820313 24.285156 48 25 48 C 25.714844 48 26.429688 47.820313 27.066406 47.460938 L 43.910156 38 C 45.199219 37.273438 46 35.917969 46 34.464844 L 46 15.535156 C 46 14.082031 45.199219 12.726563 43.910156 12.003906 L 27.066406 2.539063 C 26.429688 2.179688 25.714844 2 25 2 Z M 25 13 C 28.78125 13 32.277344 14.753906 34.542969 17.738281 L 30.160156 20.277344 C 28.84375 18.835938 26.972656 18 25 18 C 21.140625 18 18 21.140625 18 25 C 18 28.859375 21.140625 32 25 32 C 26.972656 32 28.84375 31.164063 30.160156 29.722656 L 34.542969 32.261719 C 32.277344 35.246094 28.78125 37 25 37 C 18.382813 37 13 31.617188 13 25 C 13 18.382813 18.382813 13 25 13 Z M 35 20 L 37 20 L 37 22 L 39 22 L 39 20 L 41 20 L 41 22 L 43 22 L 43 24 L 41 24 L 41 26 L 43 26 L 43 28 L 41 28 L 41 30 L 39 30 L 39 28 L 37 28 L 37 30 L 35 30 L 35 28 L 33 28 L 33 26 L 35 26 L 35 24 L 33 24 L 33 22 L 35 22 Z M 37 24 L 37 26 L 39 26 L 39 24 Z"/></svg>
+                        <h3 class="icon__title">C#</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M2.15 16.78h1.57a.14.14 0 0 0 .14-.12l.35-1.82h1.22a4.88 4.88 0 0 0 1.51-.2A2.79 2.79 0 0 0 8 14a3.18 3.18 0 0 0 .67-.85 3.43 3.43 0 0 0 .36-1 2.43 2.43 0 0 0-.41-2.16 2.64 2.64 0 0 0-2.09-.78h-3a.16.16 0 0 0-.15.13L2 16.6a.19.19 0 0 0 0 .13.17.17 0 0 0 .15.05zM5 10.62h1a1.45 1.45 0 0 1 1.08.29c.17.18.2.52.11 1a1.81 1.81 0 0 1-.57 1.12 2.17 2.17 0 0 1-1.33.33h-.8zm9.8-.95a2.7 2.7 0 0 0-1.88-.51h-1.19l.33-1.76a.15.15 0 0 0 0-.13.16.16 0 0 0-.11 0h-1.57a.14.14 0 0 0-.14.12l-1.38 7.27a.13.13 0 0 0 0 .12.13.13 0 0 0 .11.06h1.54a.14.14 0 0 0 .14-.13l.77-4.07h1.11c.45 0 .61.1.66.16a.81.81 0 0 1 0 .62l-.61 3.24a.13.13 0 0 0 0 .12.14.14 0 0 0 .11.06h1.56a.16.16 0 0 0 .15-.13l.64-3.4a1.7 1.7 0 0 0-.24-1.64zm4.52-.51h-3.13a.14.14 0 0 0-.15.13l-1.46 7.31a.16.16 0 0 0 0 .13.14.14 0 0 0 .11.05h1.63a.14.14 0 0 0 .15-.12l.37-1.82h1.27a5.28 5.28 0 0 0 1.56-.2 3 3 0 0 0 1.18-.64 3.31 3.31 0 0 0 .7-.85 3.45 3.45 0 0 0 .37-1 2.38 2.38 0 0 0-.42-2.16 2.81 2.81 0 0 0-2.18-.83zm.62 2.77a1.83 1.83 0 0 1-.6 1.12 2.28 2.28 0 0 1-1.37.33h-.8l.54-2.76h1a1.6 1.6 0 0 1 1.13.29c.16.18.16.52.1 1.02z"></path></svg>
+                        <h3 class="icon__title">PHP</h3>
+                    </article>
+                
+                    <article class="about__icons" data-aos="zoom-in-up">
+                        <svg class="skill__svg"  fill="#fff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="24px" height="24px"><path d="M 31.167969 8 C 30.699219 7.988281 30.289063 8.167969 30.078125 8.6875 C 29.71875 9.558594 30.613281 10.410156 30.933594 10.855469 C 31.15625 11.164063 31.445313 11.511719 31.605469 11.859375 C 31.710938 12.089844 31.726563 12.320313 31.816406 12.5625 C 32.039063 13.160156 32.394531 13.839844 32.679688 14.394531 C 32.824219 14.675781 32.984375 14.96875 33.167969 15.21875 C 33.28125 15.371094 33.472656 15.441406 33.503906 15.675781 C 33.316406 15.941406 33.304688 16.351563 33.199219 16.6875 C 32.722656 18.191406 32.902344 20.0625 33.59375 21.171875 C 33.808594 21.515625 34.3125 22.246094 35 21.96875 C 35.601563 21.722656 35.46875 20.960938 35.640625 20.285156 C 35.679688 20.136719 35.65625 20.023438 35.734375 19.921875 L 35.734375 19.953125 C 35.914063 20.320313 36.097656 20.6875 36.28125 21.050781 C 36.691406 21.707031 37.414063 22.390625 38.023438 22.855469 C 38.339844 23.09375 38.589844 23.507813 39 23.648438 L 39 23.617188 L 38.96875 23.617188 C 38.890625 23.492188 38.765625 23.441406 38.664063 23.34375 C 38.425781 23.109375 38.160156 22.816406 37.964844 22.546875 C 37.40625 21.792969 36.914063 20.964844 36.46875 20.105469 C 36.253906 19.695313 36.066406 19.242188 35.886719 18.824219 C 35.816406 18.660156 35.816406 18.417969 35.671875 18.332031 C 35.472656 18.640625 35.183594 18.886719 35.03125 19.25 C 34.789063 19.828125 34.753906 20.535156 34.664063 21.265625 C 34.609375 21.285156 34.632813 21.269531 34.605469 21.296875 C 34.179688 21.191406 34.027344 20.753906 33.871094 20.378906 C 33.472656 19.429688 33.394531 17.898438 33.75 16.808594 C 33.839844 16.523438 34.25 15.632813 34.085938 15.371094 C 34.007813 15.109375 33.742188 14.960938 33.597656 14.761719 C 33.414063 14.515625 33.234375 14.191406 33.109375 13.90625 C 32.78125 13.164063 32.472656 12.304688 32.125 11.554688 C 31.960938 11.195313 31.683594 10.835938 31.453125 10.515625 C 31.199219 10.164063 30.917969 9.90625 30.71875 9.476563 C 30.652344 9.328125 30.554688 9.085938 30.660156 8.929688 C 30.691406 8.824219 30.738281 8.78125 30.84375 8.746094 C 31.019531 8.609375 31.511719 8.789063 31.699219 8.867188 C 32.1875 9.070313 32.597656 9.265625 33.011719 9.539063 C 33.210938 9.671875 33.410156 9.925781 33.652344 10 L 33.925781 10 C 34.359375 10.097656 34.839844 10.027344 35.238281 10.152344 C 35.949219 10.367188 36.585938 10.703125 37.160156 11.066406 C 38.921875 12.175781 40.363281 13.757813 41.34375 15.644531 C 41.503906 15.949219 41.574219 16.242188 41.714844 16.5625 C 41.992188 17.210938 42.347656 17.882813 42.628906 18.515625 C 42.90625 19.152344 43.179688 19.789063 43.574219 20.316406 C 43.78125 20.59375 44.585938 20.746094 44.949219 20.898438 C 45.203125 21.007813 45.625 21.121094 45.863281 21.265625 C 46.328125 21.542969 46.773438 21.875 47.207031 22.183594 C 47.425781 22.335938 48.089844 22.667969 48.125 22.945313 C 47.050781 22.917969 46.230469 23.015625 45.53125 23.3125 C 45.332031 23.398438 45.011719 23.398438 44.980469 23.648438 C 45.085938 23.761719 45.105469 23.933594 45.191406 24.074219 C 45.359375 24.34375 45.640625 24.707031 45.894531 24.898438 C 46.171875 25.105469 46.453125 25.328125 46.75 25.511719 C 47.273438 25.828125 47.859375 26.011719 48.367188 26.332031 C 48.664063 26.523438 48.964844 26.761719 49.253906 26.972656 C 49.398438 27.082031 49.492188 27.246094 49.679688 27.3125 L 49.679688 27.28125 C 49.582031 27.15625 49.558594 26.984375 49.46875 26.855469 L 49.066406 26.453125 C 48.679688 25.941406 48.1875 25.488281 47.664063 25.113281 C 47.246094 24.8125 46.3125 24.40625 46.140625 23.921875 L 46.109375 23.890625 C 46.402344 23.859375 46.75 23.75 47.023438 23.675781 C 47.484375 23.554688 47.890625 23.585938 48.363281 23.464844 C 48.578125 23.402344 48.792969 23.339844 49.007813 23.28125 L 49.007813 23.15625 C 48.769531 22.914063 48.597656 22.585938 48.335938 22.363281 C 47.652344 21.78125 46.90625 21.199219 46.136719 20.714844 C 45.710938 20.445313 45.183594 20.269531 44.734375 20.042969 C 44.582031 19.964844 44.316406 19.925781 44.214844 19.796875 C 43.976563 19.496094 43.847656 19.113281 43.664063 18.761719 C 43.28125 18.023438 42.90625 17.21875 42.566406 16.441406 C 42.335938 15.914063 42.183594 15.390625 41.894531 14.914063 C 40.507813 12.636719 39.015625 11.257813 36.703125 9.90625 C 36.210938 9.617188 35.621094 9.507813 34.996094 9.359375 C 34.65625 9.335938 34.324219 9.316406 33.984375 9.296875 C 33.78125 9.210938 33.566406 8.960938 33.375 8.835938 C 32.894531 8.535156 31.949219 8.011719 31.167969 8 Z M 34.476563 11.3125 C 34.253906 11.308594 34.09375 11.339844 33.925781 11.375 L 33.925781 11.40625 L 33.957031 11.40625 C 34.0625 11.625 34.253906 11.765625 34.386719 11.953125 C 34.488281 12.167969 34.585938 12.382813 34.6875 12.597656 L 34.71875 12.566406 C 34.90625 12.433594 34.996094 12.21875 34.996094 11.894531 C 34.917969 11.816406 34.90625 11.714844 34.84375 11.621094 C 34.753906 11.492188 34.585938 11.421875 34.476563 11.3125 Z M 1.867188 23.996094 C 1.566406 24.007813 1.238281 24.066406 0.882813 24.179688 C 0.289063 24.359375 -0.00390625 24.714844 -0.00390625 25.4375 L -0.00390625 33 L 2 33 L 2 25.621094 L 4.777344 31.929688 C 5.121094 32.714844 5.589844 32.996094 6.507813 32.996094 C 7.429688 32.996094 7.878906 32.714844 8.222656 31.929688 L 11 25.78125 L 11 33 L 13 33 L 13 25.4375 C 13 24.714844 12.710938 24.359375 12.113281 24.179688 C 10.691406 23.730469 9.734375 24.117188 9.304688 25.089844 L 6.453125 31.503906 L 3.695313 25.089844 C 3.382813 24.359375 2.757813 23.960938 1.867188 23.996094 Z M 26.246094 24 C 25.457031 24 23 24.09375 23 26 L 23 27.234375 C 23 28.109375 23.769531 28.824219 25.4375 29 C 25.625 29.011719 25.8125 29.027344 26 29.027344 C 26 29.027344 27.945313 28.988281 28 29 C 29.125 29 29 29.875 29 30 L 29 31 C 29 31.136719 28.96875 32 27.988281 32 L 23 32 L 23 33 L 28.007813 33 C 28.664063 33 29.300781 32.863281 29.808594 32.625 C 30.652344 32.238281 31 31.714844 31 31.027344 L 31 29.597656 C 31 28.0625 29.09375 28 28 28 L 26 28 C 25.214844 28 25.09375 27.523438 25 27 L 25 26 C 25.09375 25.601563 25.269531 25.0625 25.964844 25 L 31 25 L 31 24 Z M 33.980469 24 C 32.503906 24.203125 31.984375 24.9375 31.984375 26 L 31.984375 31 C 31.984375 31.972656 32.527344 32.558594 33.644531 32.863281 C 34.019531 32.96875 34.359375 33.011719 34.679688 33.011719 L 36.90625 33 L 38.214844 33 L 39.328125 34 L 41.578125 34 L 40.03125 32.605469 C 40.757813 32.304688 40.984375 31.84375 40.984375 30.980469 L 40.984375 26 C 40.984375 24.9375 40.292969 24.203125 38.816406 24 Z M 42 24 L 42 30.957031 C 42 32.164063 42.683594 32.84375 44.492188 32.980469 C 44.660156 32.988281 44.832031 33 45 33 L 50 33 L 50 32 L 45.378906 32 C 44.347656 32 44 31.566406 44 30.949219 L 44 24 Z M 35.171875 25 L 37.746094 25 C 38.425781 25 38.882813 25.546875 38.984375 26 C 38.984375 26 39 30.65625 39 31 C 39 31.34375 38.808594 31.5 38.808594 31.5 L 38.265625 31 L 36 31 L 37.113281 32 L 35.171875 32 C 34.476563 32 34.085938 31.484375 33.984375 31 L 33.984375 26.101563 C 33.984375 25.570313 34.390625 25 35.171875 25 Z M 14 27 C 14.039063 27.039063 14 31.261719 14 31.34375 C 14.015625 32.21875 15.125 32.984375 16.863281 33 L 20 33 L 20 33.066406 C 20 33.253906 20.136719 33.878906 19 34 C 18.988281 34 14.011719 34 14 34 L 14 35 L 19.214844 35 C 20.097656 34.972656 22.011719 34.773438 22 33.242188 C 22 33.214844 22.007813 27 22 27 L 20 27 L 20 32 C 19.96875 32 17.523438 32.007813 17.03125 32 C 16.066406 31.984375 15.984375 31.433594 16 31.222656 L 16 27 Z"/></svg>
+                        <h3 class="icon__title">MySQL</h3>
+                    </article>
+                
+                
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="projects" class="projects ">
+            
+            <div class="container projects__container">
+                <h2 class="subtitle projects__subtitle">
+                    Mis Proyectos
+                </h2>
+                <hr class="barra">
+
+                <div class="main__projects">
+                    <section class="card" data-aos="fade-up-right">
+                        <div class="face front">
+                            <img src="./images/Proyecto 1.PNG" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, JavaScript</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="https://tudeveloperweb.github.io/Proyecto1/" target="_blanck" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Ver Proyecto </span>
+                                </a>
+
+                                <a href="https://github.com/TuDeveloperWeb/Proyecto1/tree/master" target="_blanck" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-up">
+                        <div class="face front">
+                            <img src="./images/page2.jpg" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, Boostrap</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="#" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span >Ver Proyecto </span>
+                                </a>
+
+                                <a href="#" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-up-left">
+                        <div class="face front">
+                            <img src="./images/page3.jpg" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, JavaScript</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="#" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Ver Proyecto </span>
+                                </a>
+
+                                <a href="#" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-up-right">
+                        <div class="face front">
+                            <img src="./images/Proyecto4.PNG" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, JavaScript</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="#" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Ver Proyecto </span>
+                                </a>
+
+                                <a href="#" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-up">
+                        <div class="face front">
+                            <img src="./images/page5.jpg" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, Boostrap</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="#" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Ver Proyecto </span>
+                                </a>
+
+                                <a href="#" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="card" data-aos="fade-up-left">
+                        <div class="face front">
+                            <img src="./images/page6.jpg" alt="" class="card__img">
+                            <h3 class="front__title">Html, Css, JavaScript</h3>
+                        
+                        </div>
+                        <div class="face back">
+                            <h3 class="back__title">Cafeteria</h3>
+                            <p class="face__paragraph">Pagina web de Cafeteria hecho con HTML, CSS y JavaScript</p>
+                            <div class="face__links">
+                                <a href="#" class="project__link">
+                                    <i class="fa-solid fa-eye"></i>
+                                    <span>Ver Proyecto </span>
+                                </a>
+
+                                <a href="#" class="project__link">
+                                    <i class="fa-brands fa-github"></i>
+                                    <span>GitHub </span>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="button__projects">
+                   
+                    <a href="#" class="button__add" data-aos="fade-up" >
+                        <i class="fa-solid fa-angle-right"></i>
+                    
+                        <span class="arrow__button">Ver más</span>
+                    </a>
+
+                </div>
+                
+            </div>
+        </section>
+
+    </main>
+    
+
+    <footer>
+        <div id="contact" class="contact">        
+            <div class="container container__contact" data-aos="zoom-out">
+                <h2 class="subtitle subtitle__contact">
+                    Contacto
+                </h2>
+                <hr class="barra">
+
+
+                <div class="main__contact">       
+                    <div class="contact__info">
+                        <h3 class="form__title ">Ponganse en Contacto</h3>
+                        <p class="info__paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                            dolorum adipisci recusandae praesentium dicta!
+                        </p>
+                        <div class="info">
+                            <div class="information">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <p class="information__text">92 Cherry Drive Uniondale, NY 11553</p>
+                            </div>
+                            <div class="information">
+                                <i class="fa-solid fa-envelope"></i>
+                                <p class="information__text">lorem@ipsum.com</p>
+                            </div>
+                            <div class="information">
+                                <i class="fa-solid fa-phone"></i>
+                                <p class="information__text">123-456-789</p>
+                            </div>
+                        </div>                     
+    
+
+                        <ul class="social__media" data-aos="fade-up-right">
+                            <li class="social__icons">
+                                <a class="link__social"  href="#" ><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                
+                            <li class="social__icons">
+                                <a class="link__social" href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                            </li>
+                
+                            <li class="social__icons">
+                                <a class="link__social"  href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="social__icons">
+                                <a class="link__social"  href="https://github.com/TuDeveloperWeb?tab=repositories"><i class="fa-brands fa-github"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <form class="form" id="form" action="https://formspree.io/f/xleznybd"
+                    method="POST" >
+                        <h3 class="form__title"> Contacténos</h3>
+                        <div class="form__container">
+
+                            <div class="form__group"data-aos="fade-up-left">
+                                <input type="text" id="name" class="form__input" placeholder=" ">
+                                <label for="name" class="form__label">Nombre</label>
+                                <span class="form__line"></span>
+                            </div>
+                            
+                            <div class="form__group"data-aos="fade-up-left">
+                                <input type="text" id="email" name="email" class="form__input" placeholder=" ">
+                                <label for="email" class="form__label">Correo</label>
+                                <span class="form__line"></span>
+                            </div>
+                            
+                            <div class="form__group textarea"data-aos="fade-up-left" >
+                                <textarea name="message" class="form__input" placeholder=" "></textarea>
+                                <label for="message" class="form__label" >Mensaje</label>
+                                <span class="form__line"></span>
+                            </div>
+                            
+                            <input type="submit" class="form__submit" data-aos="fade-up" value="Enviar" >
+                    
+                         </div>
+                    </form>
+                </div>
+                    
+            </div>
+        </div>
+        
+
+    </footer>
+
+<!-- Particulas -->
+    <script src="js/particles.js"></script>
+    <script src="./js/app.js"></script>
+    
+    <!-- textos animados -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- Menu -->
+    <script src="./js/menu.js"></script>
+
+    <!-- Animacion -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init({
+            duration:1300,
+            once: true
+        }
+        );
+    </script>
+
+    <!-- Para enviar el formulario -->
+    <script src="./js/formulario.js"></script>
+
+    <!-- Alertas animados -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+   
+   
+
+</body>
+</html>
