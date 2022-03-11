@@ -262,12 +262,18 @@ body {
 .skill {
     background-color: #040302;
     /* background-color: #191D26; */
+   
+}
+
+.skill .container{
+    max-width: 1200px;
 }
 .main__skill {
     padding-top: 80px;
     padding: 80px 0 30px;
     display: grid;
     width: 90%;
+    
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;   
@@ -442,7 +448,8 @@ body {
     width: 100%;
     line-height: 45px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
+    /* background-color: #111111; */
     text-align: center;
 }
 
