@@ -382,7 +382,7 @@ body {
     padding-top: 80px;
     margin: 0 auto;
     column-gap: 20px;
-    row-gap: 60px;
+    row-gap: 25px;
     width: 100%;
     /* background-color: red; */
     justify-content: space-evenly;
@@ -431,6 +431,11 @@ body {
     object-fit: cover;
 
 }
+.img__ferreteria{
+    /* object-fit: fill; */
+    object-position: left;
+}
+
 
 
 .powerbi__img{
