@@ -43,11 +43,12 @@ body {
     right: 0;
     background-color: #000;
     z-index: 9999;
+    overflow: hidden;
 }
 
 .nav {
     height: 100px;
-    width: 100%;
+    width: 95%;
     display: flex;
     align-items: center;
     --padding-container: 0;
@@ -670,14 +671,14 @@ body {
 
 .link__social {
     position: relative;
-    width: 43px;
-    height: 43px;
+    width: 44px;
+    height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
     /* text-align: center; */
     /* line-height: 63px; */
-    background: #333;
+    background-color: #333;
     border-radius: 50%;
     font-size: 26px;
     color: #666;
