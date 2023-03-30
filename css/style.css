@@ -433,16 +433,21 @@ body {
 
 }
 .img__ferreteria{
-    /* object-fit: fill; */
-    object-position: left;
+    object-fit: contain;
+    object-position: center;
 }
 
-
+.img__Requisicion{
+    object-fit: cover;
+    object-position: center;
+    background: radial-gradient(circle at center, #fcfcfc , #9fd0e0);
+}
 
 .powerbi__img{
-    /* object-fit: contain; */
+    object-fit: contain;
     /* width: 500px; */
     /* height: 300px; */
+    /* object-position: 68% center; */
     object-position: 68% center;
 
 }
