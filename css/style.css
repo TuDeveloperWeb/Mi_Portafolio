@@ -443,12 +443,12 @@ body {
     background: radial-gradient(circle at center, #fcfcfc , #9fd0e0);
 }
 
-.powerbi__img{
-    object-fit: contain;
+.helpdesk__img{
+    object-fit: cover;
     /* width: 500px; */
     /* height: 300px; */
     /* object-position: 68% center; */
-    object-position: 68% center;
+    object-position: center;
 
 }
 

@@ -87,6 +87,19 @@ body{
 
 }
 
+.maintenance {
+    margin-top: 25px;
+    background-color: #ffd700;
+    /*Colordefondoamarillo*/padding: 10px;
+    /*Espaciadointernopararesaltar*/border-radius: 10px;
+    /*Bordesredondeados*/font-style: italic;
+     /* Texto en cursiva */:;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .slider__btn{
     width: 40px;
     height: 40px;
